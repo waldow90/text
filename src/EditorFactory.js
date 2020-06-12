@@ -25,7 +25,6 @@ import {
 	Heading,
 	Code,
 	Link,
-	BulletList,
 	OrderedList,
 	Blockquote,
 	CodeBlock,
@@ -35,7 +34,7 @@ import {
 	Placeholder,
 } from 'tiptap-extensions'
 import { Strong, Italic, Strike } from './marks'
-import { Image, PlainTextDocument, ListItem } from './nodes'
+import { Image, PlainTextDocument, ListItem, BulletList } from './nodes'
 import MarkdownIt from 'markdown-it'
 import taskLists from 'markdown-it-task-lists'
 import { translate as t } from '@nextcloud/l10n'
